@@ -15,8 +15,9 @@ body {
 hr{
     margin: 2rem 0rem;
 }
+
 .container {
-padding: 0rem 1rem;
+padding: 0rem 0rem 1rem;
 }
 
 .container-center {
@@ -29,16 +30,22 @@ padding: 0rem 1rem;
     padding: 0.5rem 1rem;
 }
 .link-primary {
+    display: inline-block;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    margin-right: 1rem;
 
 }
 
 .link-secondary {
+    display: inline-block;
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    /* margin: 10rem; */
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -60,6 +67,8 @@ padding: 0rem 1rem;
 
 .navigation .nav-brand {
     font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 
 .navigation .nav-pills {
@@ -77,6 +86,7 @@ padding: 0rem 1rem;
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -97,7 +107,7 @@ padding: 0rem 1rem;
 
 .section h1 {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     font-weight: bold;
 }
 
@@ -109,10 +119,14 @@ padding: 0rem 1rem;
 background-color: var(--primary-color);
 color: white;
 border-top-right-radius: 1rem;
-padding: 2rem 1rem;
+padding: 1.5rem 1rem;
 text-align: center;
 }
 
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
 .footer .link {
     color: white;
 }
