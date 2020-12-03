@@ -131,14 +131,14 @@ text-align: center;
     color: white;
 }
 
-.back {
+.link-back {
     margin: 1rem;
     font-size: x-large;
     font-weight: bold;
     color: var(--dark-gray);
 }
 
-.back a{
+.link-back a{
     color: var(--dark-gray);
 }
 
