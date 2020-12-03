@@ -130,3 +130,25 @@ text-align: center;
 .footer .link {
     color: white;
 }
+
+.back {
+    margin: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--dark-gray);
+}
+
+.back a{
+    color: var(--dark-gray);
+}
+
+.blog-img {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.blog-small-text {
+    font-size: 0.75rem;
+
+}
