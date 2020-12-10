@@ -150,9 +150,10 @@ hr {
 }
 
 .blog-img {
-    max-width: 600px;
+    max-width: 350px;
     margin: auto;
     padding: 2rem;
+    display: block;
 }
 
 .blog-small-text {
